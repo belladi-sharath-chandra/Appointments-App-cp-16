@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-1 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b5b7c4;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 120px;
+}
+@media screen and (max-width: 576px) {
+  .bg-1 {
+    height: px;
+    min-height: 70px;
+    padding: 4px;
+    width: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list {
+  width: 30%;
+  margin: 10px;
+}
+@media screen and (max-width: 576px) {
+  .list {
+    width: 100%;
+  }
+}
+
+.h1 {
+  font-size: 20px;
+  color: #171f46;
+}
+@media screen and (max-width: 576px) {
+  .h1 {
+    font-size: 15px;
+  }
+}
+
+.bt {
+  background-color: transparent;
+  border-width: 0px;
+}
+@media screen and (max-width: 576px) {
+  .date2 {
+    margin-bottom: 10px;
+  }
+}
+.date2 {
+  font-size: 15px;
+  color: #b5b7c4;
+}
